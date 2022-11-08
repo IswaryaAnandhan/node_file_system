@@ -49,4 +49,4 @@ app.get("/read",function (req,res){
     
 })
 
-app.listen(3004)
+app.listen(process.env.PORT||3004)
